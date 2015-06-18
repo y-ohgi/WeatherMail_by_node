@@ -76,8 +76,8 @@ function getRainfall(){
 
 
 var job = schedule.scheduleJob({
-	// hour   : 18,
-	second: 40
+	hour   : 7
+//	second: 40
 }, function () {
 	console.log(getRainfall());
 	console.log("hoge");
