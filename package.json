@@ -10,7 +10,8 @@
 	"license": "ISC",
 	"dependencies": {
 		"xml2js": "",
-		"node-schedule": ""
+		"node-schedule": "",
+		"request": ""
 
 	}
 }
