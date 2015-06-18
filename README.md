@@ -6,10 +6,28 @@
 
 
 ## Usage
+
+
 ```
 $ npm install
 $ node index.js
 ```
+
+**ルートディレクトリに以下ファイルを作成**
+```javascript
+// config.js
+exports.fromaddress = function(){
+    return "***@gmail.com";
+};
+exports.frompass = function(){
+    return "password";
+};
+exports.toaddress = function(){
+    return "****@example.com";
+};
+
+```
+
 
 ## 使用させていただいたAPI
 http://www.drk7.jp/weather  
