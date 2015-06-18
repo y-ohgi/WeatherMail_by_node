@@ -1,6 +1,6 @@
 {
 	"name": "weather",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "this is mail notification for weather.",
 	"main": "index.js",
 	"scripts": {
@@ -11,7 +11,8 @@
 	"dependencies": {
 		"xml2js": "",
 		"node-schedule": "",
-		"request": ""
+		"request": "",
+		"nodemailer": "0.7.1"
 
 	}
 }
